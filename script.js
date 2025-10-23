@@ -4955,7 +4955,7 @@ function drawMainChart(thinkTank, color) {
         .attr('y', d => y(d.n) - 10)
         .attr('text-anchor', 'middle')
         .attr('fill', '#111')
-        .attr('font-size', '16px')
+        .attr('font-size', '12px')
         .attr('font-weight', '500')
         .text(d => d.n)
         .attr('opacity', 0);
